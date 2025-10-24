@@ -654,12 +654,9 @@ static inline int atomic_dec_if_positive(atomic_t *v)
 }
 #endif
 
-<<<<<<< HEAD
-=======
 #define atomic_cond_read_relaxed(v, c)	smp_cond_load_relaxed(&(v)->counter, (c))
 #define atomic_cond_read_acquire(v, c)	smp_cond_load_acquire(&(v)->counter, (c))
 
->>>>>>> fab5166eac37 (locking/barriers: Introduce smp_cond_load_relaxed() and atomic_cond_read_relaxed())
 #ifdef CONFIG_GENERIC_ATOMIC64
 #include <asm-generic/atomic64.h>
 #endif
