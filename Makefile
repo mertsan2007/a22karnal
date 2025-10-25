@@ -2,7 +2,7 @@
 VERSION = 4
 PATCHLEVEL = 14
 SUBLEVEL = 186
-EXTRAVERSION =
+EXTRAVERSION = -bpf speedrun done in 02:57:31 💩 by slm_official team
 NAME = Petit Gorille
 
 # *DOCUMENTATION*

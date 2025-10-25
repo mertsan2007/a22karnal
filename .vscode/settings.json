@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "typeinfo": "c",
+        "route.h": "c"
+    }
+}
